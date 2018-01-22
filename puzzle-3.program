@@ -1,0 +1,12 @@
+down
+down
+var storedColor = getColor    \\ stores current tile color in storedColor variable
+down
+down
+down
+right
+right
+setColor(storedColor)        \\ sets current tile color to storedColor, which opens gate
+right
+right
+up                           \\ collects green dot
