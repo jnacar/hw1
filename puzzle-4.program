@@ -1,3 +1,18 @@
+down
+down
+down
+down
+right
+get_set_move
+up
+right
+get_set_move
+
 
 function get_set_move {
-  var 
+  var storedColor = getColor
+  down
+  setColor(storedColor)
+  right
+  right
+}
