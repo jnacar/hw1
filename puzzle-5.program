@@ -1,0 +1,18 @@
+right
+right
+down_or_up
+down_or_up
+down_or_up
+right
+
+
+function down_or_up {
+  if (getColor == "blue") {
+    down
+  }
+  else {
+    up
+  }
+  right
+  right
+}
